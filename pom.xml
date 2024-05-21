@@ -10,7 +10,7 @@
 
     <groupId>nl.ivonet</groupId>
     <artifactId>quickstart-archetype</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>maven-archetype</packaging>
 
     <name>quickstart-archetype</name>
@@ -126,7 +126,7 @@
         <connection>scm:git:git@github.com:IvoNet/quickstart-archetype.git</connection>
         <developerConnection>scm:git:git@github.com:IvoNet/quickstart-archetype.git</developerConnection>
         <url>https://github.com/IvoNet/quickstart-archetype</url>
-        <tag>v0.1</tag>
+        <tag>v1.0</tag>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
