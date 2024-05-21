@@ -10,7 +10,7 @@ A quickstart maven archetype for creating greenfield Java 21 projects
 mvn archetype:generate \
     -DarchetypeGroupId=nl.ivonet \
     -DarchetypeArtifactId=quickstart-archetype \
-    -DarchetypeVersion=1.0.0 -U
+    -DarchetypeVersion=1.0 -U
 ```
 
 ## Install in local repo
@@ -19,7 +19,7 @@ mvn archetype:generate \
 mvn dependency:get \
    -DgroupId=nl.ivonet \
    -DartifactId=quickstart-archetype \
-   -Dversion=1.0.0
+   -Dversion=1.0
    
 mvn archetype:crawl
    
