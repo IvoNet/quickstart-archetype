@@ -15,8 +15,11 @@
         <include>**/*.java</include>
       </includes>
     </fileSet>
-    <fileSet encoding="UTF-8">
+    <fileSet encoding="UTF-8" filtered="true" packaged="false" >
       <directory></directory>
+      <excludes>
+        <exclude>.idea/**</exclude>
+      </excludes>
       <includes>
         <include>.java-version</include>
         <include>README.md</include>
