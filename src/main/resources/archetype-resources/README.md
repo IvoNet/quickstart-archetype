@@ -1,3 +1,4 @@
-# Quickstart project
+# ${artifactId}
 
-This project is a quickstart project for a Simple Java project
+TODO Description of the project here
+
